@@ -1,0 +1,9 @@
+offer.custom_config_form:
+  path: '/admin/config/offer/customconfig'
+  defaults:
+    _form: '\Drupal\offer\Form\CustomConfigForm'
+    _title: 'CustomConfigForm'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE

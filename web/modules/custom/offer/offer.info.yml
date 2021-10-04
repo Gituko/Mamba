@@ -1,0 +1,5 @@
+name: 'Offer'
+type: module
+description: 'Main module for the offer platform'
+core_version_requirement: '^8 || ^9'
+package: 'Offer'

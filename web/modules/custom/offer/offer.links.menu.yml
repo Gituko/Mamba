@@ -1,0 +1,6 @@
+offer.custom_config_form:
+  title: 'Offer global settings'
+  route_name: offer.custom_config_form
+  description: 'A description for the menu entry'
+  parent: system.admin_config_system
+  weight: 99

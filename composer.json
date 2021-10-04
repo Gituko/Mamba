@@ -16,9 +16,14 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "cweagans/composer-patches": "^1.7",
+        "drupal/bootstrap": "^3.23",
+        "drupal/console": "^1.9",
         "drupal/core-composer-scaffold": "^9.1",
         "drupal/core-project-message": "^9.1",
-        "drupal/core-recommended": "^9.1"
+        "drupal/core-recommended": "^9.1",
+        "drupal/devel": "^4.1",
+        "drupal/redirect": "1.5"
     },
     "require-dev": {
         "drupal/core-dev": "^9.1"
@@ -66,6 +71,12 @@
                 "  * Remove the plugin that prints this message:",
                 "      composer remove drupal/core-project-message"
             ]
+        },
+        "patches": {
+            "drupal/redirect": {
+                "Duplicate button in the node":
+                "https://www.drupal.org/files/issues/2020-12-15/remove-duplicate-button.patch"
+              }
         }
     }
 }
