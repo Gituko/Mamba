@@ -31,17 +31,17 @@ class CustomConfigForm extends ConfigFormBase {
    */
   public function buildForm(array $form, FormStateInterface $form_state) {
     $config = $this->config('offer.customconfig');
-	$form['analytics'] = array(
-	'#type' => 'details',
-	'#title' => $this->t('Marketing & analytics'),
-	'#open' => TRUE,
-	);
-	$form['analytics']['tagmanager'] = [
-	'#type' => 'textarea',
-	'#title' => $this->t('Tagmanager code'),
-	'#default_value' => $config->get('tagmanager'),
-	'#maxlength' => NULL,
-	];
+        $form['analytics'] = array(
+        '#type' => 'details',
+        '#title' => $this->t('Marketing & analytics'),
+        '#open' => TRUE,
+        );
+        $form['analytics']['tagmanager'] = [
+        '#type' => 'textarea',
+        '#title' => $this->t('Tagmanager code'),
+        '#default_value' => $config->get('tagmanager'),
+        '#maxlength' => NULL,
+        ];
     return parent::buildForm($form, $form_state);
   }
 
