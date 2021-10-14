@@ -1,0 +1,22 @@
+uuid: 5ae9559e-f7ff-4baf-801e-a5a3da1352d2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - offer
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: offer_powered
+theme: offer
+region: navigation
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

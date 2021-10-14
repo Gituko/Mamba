@@ -1,0 +1,20 @@
+uuid: 43d95711-9edc-4514-8498-856662c12d7c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - offer
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: offer_local_actions
+theme: offer
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: e8d3653a-8235-4dae-a84c-8cf278944ba9
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - offer
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: offer_content
+theme: offer
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
