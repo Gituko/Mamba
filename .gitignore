@@ -24,4 +24,30 @@
 # Ignore .env files as they are personal
 /.env
 
+# Scaffolded files
+.editorconfig
+.gitattributes
+web/.csslintrc
+web/.eslintignore
+web/.eslintrc.json
+web/.gitignore
+web/INSTALL.txt
+web/README.txt
+web/example.gitignore
+web/index.php
+web/modules/README.txt
+web/profiles/README.txt
+web/robots.txt
+web/sites/README.txt
+web/sites/default/default.services.yml
+web/sites/default/default.settings.php
+web/sites/example.settings.local.php
+web/sites/example.sites.php
+web/themes/README.txt
+web/sites/default/services.yml
+
+# Ignore SQL dumps and test artifacts
+*.sql
+*.sql.gz
+
 /ReadMe.txt
