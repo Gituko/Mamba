@@ -1,0 +1,21 @@
+name: 'Drupal Tailwind theme'
+description: 'Drupal tailwindcss theme'
+core_version_requirement: ^8 || ^9
+base theme: false
+
+libraries:
+  - mamba/global_styles
+
+regions:
+  header: 'Header'
+  primary_menu: 'Primary Menu'
+  secondary_menu: 'Secondary Menu'
+  breadcrumb: 'Breadcrumb'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  pre_content: 'Pre Content'
+  content: 'Content'
+  post_content: 'Post Content'
+  sidebar_first: 'Sidebar First'
+  sidebar_second: 'Sidebar Second'
+  footer: 'Footer'
