@@ -1,0 +1,3 @@
+name: Event
+type: module
+core_version_requirement: ^8 || ^9
