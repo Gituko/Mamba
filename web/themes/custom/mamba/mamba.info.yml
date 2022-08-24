@@ -6,6 +6,7 @@ base theme: false
 
 libraries:
   - mamba/global_styles
+  - mamba/fonts
 
 regions:
   header: 'Header'
