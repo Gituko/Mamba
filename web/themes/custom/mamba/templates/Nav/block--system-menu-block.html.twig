@@ -34,9 +34,9 @@
  */
 #}
 {% set heading_id = attributes.id ~ '-menu'|clean_id %}
-<div class="bg-indigo-600">
+<div class="bg-indigo-600 flex-1">
 <nav role="navigation" aria-labelledby="{{ heading_id }}" {{ attributes|without('role', 'aria-labelledby').addClass('max-w-7xl mx-auto px-4 sm:px-6 lg:px-8') }}>
-  <div class="w-full py-6 flex items-center justify-between border-b border-indigo-500 lg:border-none">
+  <div class="py-6 flex items-center justify-between border-b border-indigo-500 lg:border-none">
     <div class="flex items-center">
       <div class=" ml-10 space-x-8 lg:block">
       {# Label. If not displayed, we still provide it for screen readers. #}
@@ -52,8 +52,7 @@
         {{ content }}
       {% endblock %}
 
-</div>
-
+        </div>
       </div>
     </div>
   </div>
