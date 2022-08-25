@@ -1,0 +1,22 @@
+uuid: d8eab3d1-eb87-4cbb-a746-4e8d38c4246e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mamba
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: mamba_breadcrumbs
+theme: mamba
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

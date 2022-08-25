@@ -1,0 +1,23 @@
+uuid: 64afcf9e-58b9-437d-af59-cf9747151411
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - mamba
+_core:
+  default_config_hash: Q-4EcGAsu26ICu4ejEz0uE1zv4akpiaOsizxgZfAmEw
+id: mamba_search
+theme: mamba
+region: sidebar_first
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  label_display: visible
+  provider: search
+  page_id: node_search
+visibility: {  }

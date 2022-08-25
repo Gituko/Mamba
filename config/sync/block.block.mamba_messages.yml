@@ -1,0 +1,22 @@
+uuid: 83d7fe20-4283-46de-b399-8bdf6611db01
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mamba
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: mamba_messages
+theme: mamba
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

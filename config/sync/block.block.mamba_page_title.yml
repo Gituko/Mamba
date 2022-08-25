@@ -1,0 +1,20 @@
+uuid: cefe257d-2a2a-4a5d-8f47-1937c249902e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mamba
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: mamba_page_title
+theme: mamba
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

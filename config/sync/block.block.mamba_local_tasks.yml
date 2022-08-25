@@ -1,0 +1,22 @@
+uuid: 97d885f9-1b68-44c6-a2d5-62ef68aae1fc
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mamba
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: mamba_local_tasks
+theme: mamba
+region: content
+weight: -6
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

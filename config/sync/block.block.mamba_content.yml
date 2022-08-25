@@ -1,0 +1,22 @@
+uuid: cc662e6d-03c7-4d50-97bb-d1ed36b50c1d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mamba
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: mamba_content
+theme: mamba
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

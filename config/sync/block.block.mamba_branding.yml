@@ -1,0 +1,25 @@
+uuid: 4928f16e-96c1-44b2-a1a5-484924a74e5f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mamba
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: mamba_branding
+theme: mamba
+region: header
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }
