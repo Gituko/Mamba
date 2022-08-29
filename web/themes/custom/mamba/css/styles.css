@@ -585,6 +585,10 @@ video {
   margin-right: auto;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .ml-10 {
   margin-left: 2.5rem;
 }
@@ -611,10 +615,6 @@ video {
 
 .hidden {
   display: none;
-}
-
-.h-screen {
-  height: 100vh;
 }
 
 .w-full {
@@ -658,6 +658,11 @@ video {
 .border-indigo-500 {
   --tw-border-opacity: 1;
   border-color: rgb(99 102 241 / var(--tw-border-opacity));
+}
+
+.bg-slate-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
 }
 
 .bg-indigo-600 {
